@@ -31,8 +31,8 @@ export default function RootLayout({
             <Link href="/contacto">Contacto</Link>-
             <Link href="/productos">Productos</Link>-
             <Link href="/login">Login</Link>-
-            {/* <Link href="/registro">Registro</Link>- */}
-            {/* <Link href="/password">Recuperar Password</Link>- */}
+            <Link href="/registro">Registro</Link>-
+            <Link href="/password">Recuperar Password</Link>-
             {/* <Link href="/dashboard">Dashboard</Link> */}
           </nav>
         </header>
