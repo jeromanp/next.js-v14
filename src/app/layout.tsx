@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import Link from "next/link";
 
 // export const metadata = {
 //   title: "Next.js v14",
@@ -22,7 +23,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header>Cabecera de página</header>
+        <header>
+          <h2>Cabecera de página</h2>
+          <nav>
+            <Link href="/">Home</Link>-
+            <Link href="/acerca">Acerca</Link>-
+            <Link href="/contacto">Contacto</Link>-
+            <Link href="/productos">Productos</Link>-
+            <Link href="/login">Login</Link>-
+            {/* <Link href="/registro">Registro</Link>- */}
+            {/* <Link href="/password">Recuperar Password</Link>- */}
+            {/* <Link href="/dashboard">Dashboard</Link> */}
+          </nav>
+        </header>
         <main>{children}</main>
         <footer>Pie de página</footer>
       </body>
