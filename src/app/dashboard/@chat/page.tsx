@@ -1,7 +1,9 @@
-export default function Chat (){
-    return (
-        <>
-        <h2>Seccion del chat</h2>
-        </>
-    )
+import Card from "@/components/Card";
+
+export default function Chat() {
+  return (
+    <Card>
+      <h2>Seccion del chat</h2>
+    </Card>
+  );
 }
